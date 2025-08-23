@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Rosa aquarela de fundo -->
+    <color name="colorBackground">#F8BBD0</color>
+
+    <!-- Rosa principal (botões, appbar) -->
+    <color name="colorPrimary">#F06292</color>
+    <color name="colorPrimaryVariant">#E91E63</color>
+
+    <!-- Rosa suave / detalhes -->
+    <color name="colorSecondary">#FFCDD2</color>
+    <color name="colorSecondaryVariant">#F48FB1</color>
+
+    <!-- Texto -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#5A2D34</color>
+
+    <!-- Neutros -->
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#333333</color>
+
+    <color name="darkBackground">#121212</color>
+    <color name="darkSurface">#1E1E1E</color>
+    <color name="darkOnSurface">#FFFFFF</color>
+    <color name="darkColorPrimary">#FF8C94</color>
+    <color name="darkColorPrimaryVariant">#FF5C67</color>
+    <color name="darkColorOnPrimary">#FFFFFF</color>
+    <color name="darkColorSecondary">#FFD700</color>
+    <color name="darkColorSecondaryVariant">#FFC107</color>
+    <color name="darkColorOnSecondary">#000000</color>
+    <color name="darkTextPrimary">#FFFFFF</color>
+    <color name="darkTextSecondary">#CCCCCC</color>
+</resources>

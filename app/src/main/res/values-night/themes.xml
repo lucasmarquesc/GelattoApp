@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.IceCreamCute.Dark" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Fonte global: aplicada em todo texto do app -->
+        <item name="android:fontFamily">@font/baloo</item>
+
+        <!-- Fundo da tela principal e Activities -->
+        <item name="android:windowBackground">@color/darkBackground</item>
+
+        <!-- Paleta de cores: usada por AppBar, Botões, FloatingActionButton etc. -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryVariant">@color/darkColorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/darkColorOnPrimary</item>
+
+        <!-- Cores secundárias: chips, toggles, ícones secundários -->
+        <item name="colorSecondary">@color/darkColorSecondary</item>
+        <item name="colorSecondaryVariant">@color/darkColorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/darkColorOnSecondary</item>
+
+        <!-- Cor de fundo padrão de telas -->
+        <item name="android:colorBackground">@color/darkBackground</item>
+        <!-- Superfícies: cards, dialogs -->
+        <item name="colorSurface">@color/darkSurface</item>
+        <!-- Cor do texto sobre superfícies -->
+        <item name="colorOnSurface">@color/darkOnSurface</item>
+
+        <!-- Aparência de texto aplicada globalmente -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.IceCream.Dark.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.IceCream.Dark.Headline2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.IceCream.Dark.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.IceCream.Dark.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.IceCream.Dark.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.IceCream.Dark.Button</item>
+    </style>
+
+    <!-- Tipografia adaptada para o tema escuro -->
+
+    <style name="TextAppearance.IceCream.Dark.Headline1" parent="@style/TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.IceCream.Dark.Headline2" parent="@style/TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.IceCream.Dark.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.IceCream.Dark.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/darkTextSecondary</item>
+    </style>
+
+    <style name="TextAppearance.IceCream.Dark.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/darkTextPrimary</item>
+    </style>
+
+    <style name="TextAppearance.IceCream.Dark.Button" parent="@style/TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/darkColorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.IceCreamCute" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Fonte global: aplicada em todo texto do app -->
+        <item name="android:fontFamily">@font/baloo</item>
+
+        <!-- Fundo da tela principal e Activities -->
+        <item name="android:windowBackground">@drawable/icecream_cute</item>
+
+        <!-- Paleta de cores: usada por AppBar, Botões, FloatingActionButton etc. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Cores secundárias: chips, toggles, ícones secundários -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Cor de fundo padrão de telas -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <!-- Superfícies: cards, dialogs -->
+        <item name="colorSurface">@color/colorSurface</item>
+        <!-- Cor do texto sobre superfícies -->
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- Aparência de texto aplicada globalmente -->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.IceCream.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.IceCream.Headline2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.IceCream.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.IceCream.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.IceCream.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.IceCream.Button</item>
+    </style>
+
+
+    <!-- Headline1: títulos grandes (ex: tela inicial, títulos de seções principais) -->
+    <style name="TextAppearance.IceCream.Headline1" parent="@style/TextAppearance.MaterialComponents.Headline1">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#5A2D34</item>
+    </style>
+
+    <!-- Headline2: subtítulos ou títulos de cards/listas -->
+    <style name="TextAppearance.IceCream.Headline2" parent="@style/TextAppearance.MaterialComponents.Headline2">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#5A2D34</item>
+    </style>
+
+    <!-- Body1: texto principal (parágrafos, descrições) -->
+    <style name="TextAppearance.IceCream.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <!-- Body2: texto secundário (informações menores, detalhes de cards/listas) -->
+    <style name="TextAppearance.IceCream.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <!-- Caption: legendas, rótulos pequenos, dicas -->
+    <style name="TextAppearance.IceCream.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#5A2D34</item>
+    </style>
+
+    <!-- Botões: texto dentro de Buttons, FloatingActionButton, etc. -->
+    <style name="TextAppearance.IceCream.Button" parent="@style/TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/baloo</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
