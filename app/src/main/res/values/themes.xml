@@ -23,7 +23,7 @@
         <item name="colorSurface">@color/colorSurface</item>
         <!-- Cor do texto sobre superfícies -->
         <item name="colorOnSurface">@color/colorOnSurface</item>
-
+        <item name="android:textSize">20sp</item>
         <!-- Aparência de texto aplicada globalmente -->
         <item name="textAppearanceHeadline1">@style/TextAppearance.IceCream.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.IceCream.Headline2</item>
